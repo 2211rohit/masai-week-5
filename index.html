@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>The Bhagwat Geeta</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <link href="style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+  <script type="text/javascript" src="script.js"></script>
+
+  <div class="overlay"></div>
+  <img id="bgImg" src="img/gita.jpg">
+</img>
+
+  <div class="masthead">
+    <div class="masthead-bg"></div>
+    <div class="container h-100">
+      <div class="row h-50">
+        <div class="col-12 my-auto">
+          <div class="masthead-content">
+            <h1 class="mb-3">The Geeta Verse!</h1>
+            <p>Namaste! Welcome to the <em>"SriMad Bhagavad Gita"</em> online. We are happy you have arrived and it will be our pleasure to serve you.
+              Our purpose is to make the eternal knowledge of Bhagavad Gita freely available to everyone all over the Earth!
+            </p>
+            <div>
+              <select class="form-control" id="chapter">
+                <option>-Select Chapter-</option>
+                </select>
+                <button type="button" class="btn btn-success" id="button1" onclick="chapter()">Show Chapter Summary</button>
+                <select class="form-control" id="verse">
+                  <option>-Select Verse-</option>
+                  </select>
+                  <button class="btn btn-success" id="button2" onclick="verse()">Show Verse Content</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card text-white bg-saffron mb-3 headDisplay" style="max-width: 800px; font-weight: bold">
+    <div class="card-header" id="header"></div>
+    <div class="card-body">
+      <h5 class="card-title" id="title"></h5>
+      <p class="card-text" id="summary">
+      </p>
+    </div>
+  </div>
+  <div class="card text-white bg-saffron mb-3 textDisplay" style="max-width: 800px; font-weight: bold">
+    <div class="card-header" id="headerVerse"></div>
+    <div class="card-body">
+      <h5 class="card-title" id="titleVerse"></h5>
+      <p class="card-text" id="summaryVerse">
+      </p>
+    </div>
+  </div>
+  <div class="social-icons">
+    <ul class="list-unstyled text-center mb-0">
+      <li class="list-unstyled-item">
+        <a href="https://www.twitter.com" target="_blank">
+          t
+        </a>
+      </li>
+      <li class="list-unstyled-item">
+        <a href="https://www.facebook.com" target="_blank">
+          fb
+        </a>
+      </li>
+      <li class="list-unstyled-item">
+        <a href="https://www.instagram.com" target="_blank">
+          i
+        </a>
+      </li>
+    </ul>
+  </div>
+
+
+</body>
+
+</html>
